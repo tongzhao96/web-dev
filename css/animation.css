@@ -1,0 +1,29 @@
+/* CSS Document */
+.easeinAnimObj {
+	position: relative;
+	/* Chrome, Safari*/
+	-webkit-animation-name: ease-inAnimation;
+	-webkit-animation-duration: 5s;
+	-webkit-animation-timing-function: ease-in;
+	-webkit-animation-delay: 2s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction: alternate;
+	-webkit-animation-play-state: running;
+	/* Mozilla */	
+	-moz-animation-name: ease-inAnimation;
+	-moz-animation-duration: 5s;
+	-moz-animation-timing-function: ease-in;
+	-moz-animation-delay: 2s;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-direction: alternate;
+	-moz-animation-play-state: running;	
+	/* Standard syntax */
+	animation-name: ease-inAnimation;
+	animation-duration: 5s;
+	animation-timing-function: ease-in;
+	animation-delay: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-play-state: running;
+}
+

@@ -1,0 +1,5 @@
+/* CSS Document */
+.blurryText {
+	color: transparent;
+	text-shadow: 0 0 5px rgba(131,246,228,0.8);
+}
